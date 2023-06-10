@@ -1,6 +1,6 @@
 package org.example;
 
-public class DZ1 {
+public class Task1 {
     public static void main(String[] args) {
         String[] sArray = {"first str", null, "third str"};
         int[] array = {1,2,3,4,5,6,7,8,9,10,11,12};
