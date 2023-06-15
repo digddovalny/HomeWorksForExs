@@ -1,0 +1,2 @@
+<petrov><petr><petrovich><01.01.1999><123456789><m>
+<petrov><vasya><vasilevich><10.02.2005><123456789><f>
