@@ -4,15 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa329328-41bb-482c-b714-2aa14e12952b" name="Changes" comment="DZ1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ2/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ2/Task3.java" afterDir="false" />
+    <list default="true" id="fa329328-41bb-482c-b714-2aa14e12952b" name="Changes" comment="DZ">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/checkInputData/CCheckBirthday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/checkInputData/CCheckDataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/checkInputData/CCheckFullName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/checkInputData/CCheckQuantity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/checkInputData/CCheckSex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/parseData/CDataParseProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/ui/CGetData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/workWithFile/CFileCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/workWithFile/CFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Classes/workWithFile/CFindTheSameFileName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/BirthdayFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/CheckQuantityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/CheckSexException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/FileCreateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/FullNameContainsDigitException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/FullNameEmptyValueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/FullNameReadFromDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/GetDataArrayException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/GetDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/IncorrectSexValuesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/MyFileCreateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/ParseDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/ParseDataToIntegerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Exception/TheSameFileWritingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/ICheckBirthday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/ICheckElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/ICheckFullName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/ICheckPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/ICheckQuantity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/ICheckSex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/ICreateFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/IFindTheSameFileName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/IGetData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/IGetInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/IParseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/IRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/Interfaces/IWriteToFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/abstractClasses/ACheckData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/abstractClasses/ACheckDataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/abstractClasses/ACheckFullName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/abstractClasses/ACheckQuantity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/abstractClasses/ADataParseProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/abstractClasses/AFileCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/abstractClasses/AFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/abstractClasses/AFindTheSameFileName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/abstractClasses/AGetData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Base/abstractClasses/APresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ3/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ1/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ1/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DZ1/Task3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +71,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Dz2" />
       </map>
     </option>
   </component>
@@ -49,14 +91,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,11 +122,19 @@
       <option name="project" value="LOCAL" />
       <updated>1686393512701</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DZ">
+      <created>1686394139858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686394139858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DZ1" />
-    <option name="LAST_COMMIT_MESSAGE" value="DZ1" />
+    <MESSAGE value="DZ" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ" />
   </component>
 </project>
